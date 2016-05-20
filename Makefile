@@ -17,7 +17,6 @@ new:
 $(archive_targets):
 	cp a.cpp $@.cpp
 	git add $@.cpp
-	git commit -m "$@"
 
 clean:
 	rm a.*
